@@ -11,5 +11,5 @@ if (!commits) {
 
 const bundleName = "take-home-challenge";
 const result = child.execSync(`git bundle create ${bundleName}.bundle HEAD main`);
-console.log(`Nice work, you created ${result}.`);
+console.log(`Nice work, you created ${bundleName}.bundle`);
 console.log('Please upload it using the link sent to you in the initial email.');
