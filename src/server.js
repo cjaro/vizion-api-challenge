@@ -18,6 +18,9 @@ const client = new PG.Client({
   port: dbPort,
 });
 
+// connect once
+client.connect();
+
 const PORT = 5000;
 const app = express();
 
@@ -35,7 +38,7 @@ app.get("/getwebpageonly", (req, res) => {
     let passInUrl = process.argv[2];
     console.log("Fetching", passInUrl);
 
-    getSiteInformation(passInUrl).then(result => {
+    gatherSiteInformation(passInUrl).then(result => {
       let values = [
         result.title,
         result.url,
@@ -75,9 +78,8 @@ app.post("/api", (req, res) => {
         new Date()
       ]
 
-      let selectQuery = "INSERT INTO public.webinfo (title, url, meta, created_at) values ($1, $2, $3, $4) RETURNING *";
+      let selectQuery = "INSERT INTO webinfo (title, url, meta, created_at) values ($1, $2, $3, $4) RETURNING *";
 
-      client.connect();
       client.query(selectQuery, values, (err, res) => {
         if (err) {
           console.log(err.stack)
@@ -113,14 +115,22 @@ async function gatherSiteInformation(url) {
 }
 
 async function getSiteInformationById(id) {
-  client.connect();
   console.log("Fetching site with ID", id);
   return await client.query('SELECT * FROM webinfo WHERE id = $1', [id]);
 }
 
 async function getAllSiteInfo() {
-  client.connect();
   return client.query('SELECT * FROM webinfo ORDER BY id;');
+}
+
+// async function updateOneSite(id) {
+//   client.connect();
+//   return client.query('', [id]);
+// }
+
+async function deleteOneSite(id) {
+  client.connect();
+  return client.query('DELETE FROM webinfo WHERE id=$1;', [id]);
 }
 
 app.listen(PORT);
