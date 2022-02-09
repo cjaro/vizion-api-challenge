@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+
+  postgres:
+    image: postgres:latest
+    container_name: vizion-postgresql
+    ports:
+      - "5432:5432"
+    env_file:
+      - .env
+
+#  rabbitmq:
+#    image: rabbitmq:3.9-management
+#    container_name: vizion-rabbitmq
+#    ports:
+#      - ${RABBITMQ_PORTS1}
+#      - ${RABBITMQ_PORTS2}
+#    volumes:
+#      - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+#      - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq/

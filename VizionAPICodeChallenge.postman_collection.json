@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "d2811b4d-37ca-4c9a-b0a9-20912d063516",
+		"name": "Vizion API Code Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all scraped webpages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/references/16"
+			},
+			"response": []
+		},
+		{
+			"name": "POST new URL to application",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/?url=https://youtube.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "url",
+							"value": "https://youtube.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

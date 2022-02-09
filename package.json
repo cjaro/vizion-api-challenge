@@ -2,13 +2,30 @@
   "name": "api-challenge",
   "version": "1.0.0",
   "description": "Vizion API Challenge",
-  "main": "index.js",
+  "main": "src/server.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "test": "jest",
     "bundle": "node scripts/bundle.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "body-parser": "^1.19.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0",
+    "pg": "^8.7.3",
+    "prettier": "^2.5.1",
+    "puppeteer": "^13.2.0",
+    "request": "^2.67.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
 }

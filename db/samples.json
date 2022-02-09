@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "title": "eBird - Discover a new world of birding...",
+    "url": "https://ebird.org",
+    "meta": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+    "created_at": "2022-02-09 02:00:24.34474"
+  },
+  {
+    "id": 2,
+    "title": "All About Birds | Online bird guide, bird ID help, life history, bird sounds from Cornell",
+    "url": "https://www.allaboutbirds.org/",
+    "meta": "Welcome To Your Online Guide To Birds And Birdwatching",
+    "created_at": "2022-02-09 02:00:24.34474"
+  },
+  {
+    "id": 3,
+    "title": "Hacker News",
+    "url": "https://newsycombinator.com/",
+    "meta": "",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 4,
+    "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+    "url": "https://stackoverflow.com/",
+    "meta": "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming ​knowledge, and build their careers.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 5,
+    "title": "Sweetwater",
+    "url": "https://www.sweetwater.com/",
+    "meta": "Sweetwater is the worlds leading music technology and instrument retailer, offering ✓ Highly Knowledgeable Sales Engineers, ✓ In-house Technical Support...",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 6,
+    "title": "Goodreads | Meet your next favorite book",
+    "url": "https://www.goodreads.com/",
+    "meta": "Find and read more books you’ll love, and keep track of the books you want to read. Be part of the world’s largest community of book lovers on Goodreads.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 7,
+    "title": "Udemy | Online Courses - Learn Anything, On Your Schedule",
+    "url": "https://www.udemy.com/",
+    "meta": "Udemy is an online learning and teaching marketplace with over 183,000 courses and 40 million students. Learn programming, marketing, data science and more.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 8,
+    "title": "Twitch",
+    "url": "https://www.udemy.com/",
+    "meta": "Twitch is an interactive livestreaming service for content spanning gaming, entertainment, sports, music, and more. Theres something for everyone on Twitch.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 9,
+    "title": "Netflix | Home",
+    "url": "https://www.netflix.com/",
+    "meta": "Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 10,
+    "title": "Hulu | Home",
+    "url": "https://www.hulu.com",
+    "meta": "Watch TV shows and movies online. Stream TV episodes of Greys Anatomy, This Is Us, Bobs Burgers, Brooklyn Nine-Nine, Empire, SNL, and popular movies on your favorite devices. Start your free trial now. Cancel anytime.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 11,
+    "title": "HBO Max",
+    "url": "https://www.hbomax.com",
+    "meta": "Say hello to HBO Max, the streaming platform that bundles all of HBO together with even more of your favorite movies and TV series, plus new Max Originals.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 12,
+    "title": "LinkedIn",
+    "url": "https://www.linkedin.com/",
+    "meta": "750 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 13,
+    "title": "GitLab | Iterate faster, innovate together",
+    "url": "https://about.gitlab.com/",
+    "meta": "GitLabs DevOps platform is a single application for unparalleled collaboration, visibility, and development velocity. Learn more here!",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 14,
+    "title": "GitHub: Where the world builds software · GitHub",
+    "url": "https://github.com/",
+    "meta": "GitHub is where over 73 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 15,
+    "title": "BitBucket",
+    "url": "https://bitbucket.org/",
+    "meta": "Collaborate on code with inline comments and pull requests. Manage and share your Git repositories to build and ship software, as a team.",
+    "created_at": "2022-02-09 02:14:38.973429"
+  },
+  {
+    "id": 16,
+    "title": "Brewers Publications - Leading Publisher of Books on Beer",
+    "url": "https://www.brewerspublications.com/",
+    "meta": "Brewers Publications is the leading publisher of contemporary beer and brewing literature for today’s craft brewers, homebrewers and beer enthusiasts.",
+    "created_at": "2022-02-08 17:38:06.24"
+  },
+  {
+    "id": 17,
+    "title": "Discord | Your Place to Talk and Hang Out",
+    "url": "https://discord.com/",
+    "meta": "Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.",
+    "created_at": "2022-02-08 17:38:51.113"
+  },
+  {
+    "id": 18,
+    "title": "Reddit - Dive into anything",
+    "url": "https://www.reddit.com/",
+    "meta": "Reddit is a network of communities where people can dive into their interests, hobbies and passions. There's a community for whatever you're interested in on Reddit.",
+    "created_at": "2022-02-08 17:39:06.8"
+  },
+  {
+    "id": 19,
+    "title": "Northern Brewer Home Brew Supplies",
+    "url": "https://www.northernbrewer.com/",
+    "meta": "Learn how to make beer and wine at home with a top-rated home brewing starter kit or beer making recipes. Shop home brewing supplies, high quality brewing & wine making ingredients, & free shipping over $49!",
+    "created_at": "2022-02-08 17:39:26.366"
+  },
+  {
+    "id": 20,
+    "title": "Midwest Supplies - Wine Making & Homebrew Supplies",
+    "url": "https://www.midwestsupplies.com/",
+    "meta": "Your online wine making, home brewing, & kombucha making supply store. From beer and wine making kits to complete recipes we have you covered. Free shipping on orders over $125.",
+    "created_at": "2022-02-08 17:39:38.068"
+  },
+  {
+    "id": 21,
+    "title": "Tumblr",
+    "url": "https://www.tumblr.com/",
+    "meta": "Tumblr is a place to express yourself, discover yourself, and bond over the stuff you love. It's where your interests connect you with your people.",
+    "created_at": "2022-02-08 18:04:21.695"
+  },
+  {
+    "id": 22,
+    "title": "Stack Overflow - Where Developers Learn, Share, & Build Careers",
+    "url": "https://stackoverflow.com/",
+    "meta": "Stack Overflow is the largest, most trusted online community for developers to learn, share​ ​their programming ​knowledge, and build their careers.",
+    "created_at": "2022-02-08 18:05:56.781"
+  },
+  {
+    "id": 23,
+    "title": "Trello",
+    "url": "https://trello.com/",
+    "meta": "Infinitely flexible. Incredibly productive for teams of all sizes. Trello manages everything, from big project details to micro tasks. Collaborate anywhere, even on mobile.",
+    "created_at": "2022-02-08 18:07:43.334"
+  },
+  {
+    "id": 24,
+    "title": "Home | VIZION API",
+    "url": "https://www.vizionapi.com/",
+    "meta": "Vizion is an API-based solution for ocean freight visibility. The company’s API helps logistics service providers, cargo owners, and other stakeholders act on their digital ambitions by integrating essential data and insights into existing enterprise systems and delivering a stronger customer experience. Vizion’s products include visibility APIs, data benchmarking, and enriched, accessible datasets built on fundamentally sound information technology infrastructures.",
+    "created_at": "2022-02-08 19:17:56.635"
+  },
+  {
+    "id": 25,
+    "title": "YouTube",
+    "url": "https://www.youtube.com/",
+    "meta": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+    "created_at": "2022-02-08 19:24:00.14"
+  }
+]
