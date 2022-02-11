@@ -79,7 +79,8 @@ app.post("/api", (req, res) => {
         new Date(),
       ];
 
-      let selectQuery = "INSERT INTO webinfo (title, url, meta, created_at) values ($1, $2, $3, $4) RETURNING *";
+      let selectQuery =
+        "INSERT INTO webinfo (title, url, meta, created_at) values ($1, $2, $3, $4) RETURNING *";
 
       client.query(selectQuery, values, (err, res) => {
         if (err) {
@@ -107,7 +108,10 @@ async function gatherSiteInformation(url) {
 
     newReference.title = await page.title();
     newReference.url = page.url();
-    newReference.metaInformation = await page.$eval("head > meta[name='description']", (element) => element.content);
+    newReference.metaInformation = await page.$eval(
+      "head > meta[name='description']",
+      (element) => element.content
+    );
 
     await browser.close();
 
