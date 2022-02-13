@@ -29,7 +29,6 @@ let timeout = 1500000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// JWT auth - GET is accessible, but to POST requires a certain role - editor?
 app.get("/", (req, res) => {
   res.send("Hello world! 🚀");
 });
@@ -87,6 +86,9 @@ app.post("/api", (req, res) => {
     res.send({ error: error.toString() });
   }
 });
+
+// app.catch()
+// get URLs from RabbitMQ and handle
 
 async function gatherSiteInformation(url) {
   let newReference = {};
