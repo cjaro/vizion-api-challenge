@@ -1,4 +1,4 @@
-# Catherine's Notes!
+# CJ's Notes
 
 What is this? From Postman, you can send this application a URL, gather meta information, and save it to a Postgres DB. Then, you can make a GET request with that object's ID to view that information.
 
@@ -29,11 +29,11 @@ created_at TIMESTAMP
 ### Other things to do
 
 - **RabbitMQ**: schedule a weekly scrape/update of existing URLs from the DB
-  - Rabbit could also be useful if you've got multiple people querying or submitting URLs; can monitor jobs as they're running and queueing up
+  - Rabbit could also be useful if you've got multiple people querying or submitting URLs, or a huge pile of URLs to trawl through; can monitor jobs as they're running and queueing up
 - **JWT authorization**: making GET requests can be publicly accessible, but POST should require Editor role (or w/e)
 - **Components**: refactor to split `server.js` into components & general clean up
 - **Unit tests**: test each component, database connection, basic requests, data validation
 - **Missing information**: what happens when a site doesn't have meta information?
   - For example, Netflix, Hulu, & HBOMax all don't have meta descriptions when a user is logged in (why would they care about SEO once they've got a paying customer?). So how do you circumvent this?
 - **Views**: Building out a couple corresponding views to display the data could be useful, depending on the context of the application. Nice-to-have, not essential.
-- JWT auth - GET is accessible, but to POST requires a certain role - editor? poster?
+- **JWT auth**: GET is accessible, but POST could require a certain role - editor? poster?
