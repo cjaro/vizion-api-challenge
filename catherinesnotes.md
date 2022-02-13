@@ -36,4 +36,3 @@ created_at TIMESTAMP
 - **Missing information**: what happens when a site doesn't have meta information?
   - For example, Netflix, Hulu, & HBOMax all don't have meta descriptions when a user is logged in (why would they care about SEO once they've got a paying customer?). So how do you circumvent this?
 - **Views**: Building out a couple corresponding views to display the data could be useful, depending on the context of the application. Nice-to-have, not essential.
-- **JWT auth**: GET is accessible, but POST could require a certain role - editor? poster?
