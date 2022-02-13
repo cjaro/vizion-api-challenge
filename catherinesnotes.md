@@ -10,7 +10,7 @@ What is this? From Postman, you can send this application a URL, gather meta inf
 
 ```
 CREATE TABLE webinfo (
-id SERIES PRIMARY KEY,
+id SERIAL PRIMARY KEY,
 name VARCHAR(200),
 url VARCHAR(100),
 meta VARCHAR(500),
