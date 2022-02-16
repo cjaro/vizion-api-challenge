@@ -126,9 +126,5 @@ async function deleteOneSite(id) {
   return client.query("DELETE FROM webinfo WHERE id=$1;", [id]);
 }
 
-module.exports;
-
 app.listen(PORT);
 console.log(`🚀 App is listening on http://localhost:${PORT}/ 🚀`);
-
-export default class server {}
